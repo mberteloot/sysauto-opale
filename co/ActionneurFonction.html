@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Exercice : Fonction d'un actionneur [Le fonctionnement des systèmes automatisés]</title>
+		<meta charset="UTF-8" ></meta>
+		<meta name="generator" content="SCENARI 6.3.11 / Opale 24.1.0" ></meta>
+		<meta name="revision" content="2024-11-24 09:09" ></meta>
+		<link rel="start" href="systemes_automatises.html" title="Le fonctionnement des systèmes automatisés" ></link>
+		<meta name="author" content="Mickaël Berteloot
+" ></meta>
+		<meta name="keywords" content="" ></meta>
+		<meta name="date" content="24/11/2024" ></meta>
+		<meta name="viewport" content="width=device-width, initial-scale=1" ></meta>
+		<link rel="stylesheet" type="text/css" href="../lib-md/w_scCodeMgr/scCodeMgr.css" ></link>
+		<link rel="stylesheet" type="text/css" href="../lib-md/w_tePlayer/tePlayer.css" ></link>
+		<script>/*<![CDATA[*/
+/*0*/ var scServices = {id:"m3vdog0z"};
+/*1*/ window.scLoadParams = {destUri:"/co/ActionneurFonction.html", pathToRoot:"../"};
+/*]]>*/</script>
+		<script src="../lib-sc/scCoLib.js" ></script>
+		<script src="../lib-sc/scSiLib.js" ></script>
+		<script src="../lib-sc/scTiLib.js" ></script>
+		<script src="../lib-sc/scPaLib.js" ></script>
+		<script src="../lib-md/s_assmnt.js" ></script>
+		<script src="../lib-sc/scMapMgr.js" ></script>
+		<script src="../lib-sc/scDynUiMgr.js" ></script>
+		<script src="../lib-sc/scTooltipMgr.js" ></script>
+		<script src="../lib-sc/scDragMgr.js" ></script>
+		<script src="../lib-sc/scAssmntMgr.js" ></script>
+		<script src="../lib-md/w_teMgr/teLoader.js" ></script>
+		<script src="../lib-md/w_tplMgr/tplMgr.js" ></script>
+		<script src="../lib-md/s_scSearch/jsSearch.js" ></script>
+		<script src="../lib-md/w_mathjax/mathjaxMgr.js" ></script>
+		<script src="../lib-md/w_tePlayer/tePlayer.js" ></script>
+		<script src="../lib-md/w_scCodeMgr/scCodeMgr.js" ></script>
+		<script src="../lib-md/w_searchMgr/searchMgr.js" ></script>
+		<script src="../lib-md/w_scImageMgr/scImageMgr.js" ></script>
+		<script src="../lib-md/w_outMgr/outMgr.js" ></script>
+		<script>/*<![CDATA[*/
+/*0*/ try{if(window.opener && window.opener.scServices && window.opener.scServices.id == scServices.id) scServices = window.opener.scServices; else if(window.parent && window.parent.scServices && window.parent.scServices.id == scServices.id) scServices = window.parent.scServices;}catch(e){}
+scCodeMgr.registerCode("des:div.code");
+
+scImageMgr.registerAdaptedImage("ide:content/des:figure.resInFlow/des:img");
+
+scImageMgr.registerGallery("des:div.galFra");
+
+scImageMgr.registerSequence("des:div.seqFra");
+
+scImageMgr.registerSvg("des:svg");
+scImageMgr.registerZoom("des:a.svgZoom",{type:"svg",svgMax:1,toolbar:1,titlePath:"par:/nsi:/des:span.capTi"});
+
+scImageMgr.registerZoom("des:a.imgZoom",{toolbar:1,mag:1,titlePath:"par:/nsi:/des:span.capTi"});
+
+tePlayerMgr.init();
+/*]]>*/</script>
+		<link rel="shortcut icon" type="image/png" href="../skin/img/favicon.png" ></link>
+		<meta name="robots" content="index,follow" ></meta>
+		<style ></style>
+		<link type="text/css" rel="stylesheet" href="../skin/css/main.css" media="all" ></link>
+		<link type="text/css" rel="stylesheet" href="../skin/css/skin.css" media="all" ></link>
+		<link type="text/css" rel="stylesheet" href="../skin/css/print.css" media="print" ></link>
+		<script>/*<![CDATA[*/
+outMgr.declareOutline("outline.txt");
+	/*]]>*/</script>
+</head>
+	<body class="default module quiz">
+		<div id="root"><header id="header"><h1><span>Le fonctionnement des systèmes automatisés</span></h1><nav role="navigation"><ul id="accessibility"><li class="waiContent"><a href="#content"><span>contenu</span></a></li><li class="waiMenu"><a href="#menu"><span>menu</span></a></li><li class="waiNav"><a href="#navigation"><span>navigation</span></a></li><li class="waiTools"><a href="#tools"><span>outils</span></a></li></ul></nav></header><main id="main" role="main"><div id="document"><div id="content" tabindex="-1"><div class="scroller"><hr class="hidden" ></hr><section class="hBk quiz article cloze"><h2 class="hBk_ti"><span>Fonction d'un actionneur</span></h2><div class="hBk_co"><script>/*<![CDATA[*/
+var VWZuTgjParbUtznAq28g7h = {
+
+	fId : "VWZuTgjParbUtznAq28g7h",
+	fCurSeq : null,
+	initSeq : function(pCodeSeq){
+	try {
+		if(pCodeSeq==null) return;
+		if(this.fCurSeq!=null) this.closeSeq();
+		this.fCurSeq = pCodeSeq;
+		switch(this.fCurSeq) {
+
+		case "play" : {
+		var vForm = document.forms.VWZuTgjParbUtznAq28g7h_form;
+		this._Sol = {N22:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'ÉNERGIE D’ENTRÉE'==pResp || false;}, score:1},null],min:0,max:1},N25:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'ÉLECTRIQUE, MÉCANIQUE, THERMIQUE ...'==pResp || false;}, score:1},null],min:0,max:1},N28:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'ÉNERGIE DE SORTIE'==pResp || false;}, score:1},null],min:0,max:1},N2b:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'ROTATION, TRANSLATION, CHALEUR, LUMIÈRE, SON, ...'==pResp || false;}, score:1},null],min:0,max:1},_:null};
+		this.getSolIdx = function(pFieldIndex){
+			var vF = this._Sol[pFieldIndex];
+			var vVal = vForm[pFieldIndex].value;
+			for (var i = 0; i < vF.s.length-1; i++) if(vF.s[i].isMatch(vVal)) return i;
+			return -1;
+		};
+		this.getFieldScore = function(pFieldIndex) {
+			var vI = this.getSolIdx(pFieldIndex);
+			if(vI >= 0) return this._Sol[pFieldIndex].s[vI].score;
+			return 0;
+		};
+		this.refreshResultInput = function(pInput){
+			if(this._resultDisplay == "none") pInput.parentNode.className="";
+			else {
+				var vSol = this._Sol[pInput.name];
+				var vRes = Math.floor((this.getFieldScore(pInput.name) - vSol.min) / (vSol.max - vSol.min) * 1);
+				pInput.parentNode.className= "assmntResult_" + vRes;
+			}
+		};
+var vLoadRespSession = "";
+
+		for (var i=0; i < vForm.length; i++) {
+			var vFi = vForm.elements[i];
+			if (vFi.name) {
+				this.setInteraction(vFi, "enabled");
+				vFi.value = vLoadRespSession == null ? "" : scServices.assmntMgr.getResponse(this.fId, vLoadRespSession, vFi.name) || "";
+			}
+		}
+	this.refreshResult("none");
+
+var vLoadScoreSession = "";
+		this.fMinPts = scServices.assmntMgr.getMinPts(this.fId, vLoadScoreSession);
+		this.fScorePts = scServices.assmntMgr.getScorePts(this.fId, vLoadScoreSession);
+		this.fMaxPts = scServices.assmntMgr.getMaxPts(this.fId, vLoadScoreSession);
+
+		this.setSolution('collapsed', 'collapsed');
+scAssmntMgr.setMode(sc$("VWZuTgjParbUtznAq28g7h_N_globalExp"), "collapsed");
+scAssmntMgr.setMode(sc$("VWZuTgjParbUtznAq28g7h_N_reset"), "visible");
+scAssmntMgr.setMode(sc$("VWZuTgjParbUtznAq28g7h_N_score"), "invisible");
+scAssmntMgr.setToggleStatus(sc$("VWZuTgjParbUtznAq28g7h_S_Nbc"), false);
+var vRespSession = "";
+		if(scServices.assmntMgr.getCompletionStatus(this.fId, vRespSession)=="notAttempt") scServices.assmntMgr.setCompletionStatus(this.fId, vRespSession, "attempt");
+		this.setResp = function(pInput) {
+			scServices.assmntMgr.setResponse(this.fId, vRespSession, pInput.name, pInput.value);
+			this.computeScore();
+			scServices.assmntMgr.commit();
+			this.refreshResultInput(pInput);
+		}				
+
+		this.computeScore = function() {
+
+			this.fMinPts = 0;
+			this.fMaxPts = 0;
+			for(var vF in this._Sol) if(vF!="_") {this.fMinPts += this._Sol[vF].min; this.fMaxPts += this._Sol[vF].max;}
+			this.fScorePts = this.getFieldScore("N22")+this.getFieldScore("N25")+this.getFieldScore("N28")+this.getFieldScore("N2b")+0;
+var vScoreSession = "";
+			if(this.fScorePts != null) scServices.assmntMgr.setPts(this.fId, vScoreSession, this.fMinPts, this.fScorePts, this.fMaxPts);
+
+			this.refreshScoresFeedbacks();
+		}
+
+if(vRespSession != vLoadRespSession) {for (var i=0; i < vForm.length; i++) {var vFi = vForm.elements[i]; if (vFi.name) scServices.assmntMgr.setResponse(this.fId, vRespSession, vFi.name, vFi.value);}}
+this.computeScore();
+
+		scServices.assmntMgr.commit();
+		break;
+	}
+
+		case "read" : {
+		var vForm = document.forms.VWZuTgjParbUtznAq28g7h_form;
+		this._Sol = {N22:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'ÉNERGIE D’ENTRÉE'==pResp || false;}, score:1},null],min:0,max:1},N25:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'ÉLECTRIQUE, MÉCANIQUE, THERMIQUE ...'==pResp || false;}, score:1},null],min:0,max:1},N28:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'ÉNERGIE DE SORTIE'==pResp || false;}, score:1},null],min:0,max:1},N2b:{s:[{isMatch:function(pResp){if(typeof pResp == 'undefined') return false; pResp=pResp.toUpperCase().trim(); return 'ROTATION, TRANSLATION, CHALEUR, LUMIÈRE, SON, ...'==pResp || false;}, score:1},null],min:0,max:1},_:null};
+		this.getSolIdx = function(pFieldIndex){
+			var vF = this._Sol[pFieldIndex];
+			var vVal = vForm[pFieldIndex].value;
+			for (var i = 0; i < vF.s.length-1; i++) if(vF.s[i].isMatch(vVal)) return i;
+			return -1;
+		};
+		this.getFieldScore = function(pFieldIndex) {
+			var vI = this.getSolIdx(pFieldIndex);
+			if(vI >= 0) return this._Sol[pFieldIndex].s[vI].score;
+			return 0;
+		};
+		this.refreshResultInput = function(pInput){
+			if(this._resultDisplay == "none") pInput.parentNode.className="";
+			else {
+				var vSol = this._Sol[pInput.name];
+				var vRes = Math.floor((this.getFieldScore(pInput.name) - vSol.min) / (vSol.max - vSol.min) * 1);
+				pInput.parentNode.className= "assmntResult_" + vRes;
+			}
+		};
+var vLoadRespSession = "";
+
+		for (var i=0; i < vForm.length; i++) {
+			var vFi = vForm.elements[i];
+			if (vFi.name) {
+				this.setInteraction(vFi, "disabled");
+				vFi.value = vLoadRespSession == null ? "" : scServices.assmntMgr.getResponse(this.fId, vLoadRespSession, vFi.name) || "";
+			}
+		}
+	this.refreshResult("none");
+
+var vLoadScoreSession = "";
+		this.fMinPts = scServices.assmntMgr.getMinPts(this.fId, vLoadScoreSession);
+		this.fScorePts = scServices.assmntMgr.getScorePts(this.fId, vLoadScoreSession);
+		this.fMaxPts = scServices.assmntMgr.getMaxPts(this.fId, vLoadScoreSession);
+
+		this.setSolution('collapsed', 'collapsed');
+scAssmntMgr.setMode(sc$("VWZuTgjParbUtznAq28g7h_N_globalExp"), "collapsed");
+scAssmntMgr.setMode(sc$("VWZuTgjParbUtznAq28g7h_N_reset"), "invisible");
+scAssmntMgr.setMode(sc$("VWZuTgjParbUtznAq28g7h_N_score"), "invisible");
+scAssmntMgr.setToggleStatus(sc$("VWZuTgjParbUtznAq28g7h_S_Nbc"), false);
+this.setResp = function(pInput) {
+			this.computeScore();
+			scServices.assmntMgr.commit();
+			this.refreshResultInput(pInput);
+		}	
+
+		this.computeScore = function() {
+
+			this.fMinPts = 0;
+			this.fMaxPts = 0;
+			for(var vF in this._Sol) if(vF!="_") {this.fMinPts += this._Sol[vF].min; this.fMaxPts += this._Sol[vF].max;}
+			this.fScorePts = this.getFieldScore("N22")+this.getFieldScore("N25")+this.getFieldScore("N28")+this.getFieldScore("N2b")+0;
+
+			this.refreshScoresFeedbacks();
+		}
+
+this.computeScore();
+
+		scServices.assmntMgr.commit();
+		break;
+	}
+
+		}
+	}catch(e){console.error("assmnt.initSeq : "+e)};
+	},
+	onActionNe4 : function(pButton){
+		if(scAssmntMgr.isDisabled(pButton)) return;
+var vSess="";
+scServices.assmntMgr.resetResponses(this.fId, vSess);
+scServices.assmntMgr.setPts(this.fId, vSess, null, null, null); 
+this.initSeq("play");
+
+		scServices.assmntMgr.commit();
+	},
+	onActionNbc : function(pButton){
+		if(scAssmntMgr.isDisabled(pButton)) return;
+		var vIsOn = scAssmntMgr.isToggleOn(pButton);
+		if(vIsOn) {
+scAssmntMgr.setMode(sc$("VWZuTgjParbUtznAq28g7h_N_score"), "invisible");
+this.setSolution('collapsed', 'collapsed'); scAssmntMgr.setMode(sc$("VWZuTgjParbUtznAq28g7h_N_globalExp"), "collapsed");
+var vForm=document.forms.VWZuTgjParbUtznAq28g7h_form; for (var i=0; i < vForm.length; i++) {var vFi = vForm.elements[i]; if (vFi.name) this.setInteraction(vFi, "enabled");}this.refreshResult("none");
+		} else {
+scAssmntMgr.setMode(sc$("VWZuTgjParbUtznAq28g7h_N_score"), "visible");
+this.setSolution('collapsed', 'visible'); scAssmntMgr.setMode(sc$("VWZuTgjParbUtznAq28g7h_N_globalExp"), "visible");
+var vForm=document.forms.VWZuTgjParbUtznAq28g7h_form; for (var i=0; i < vForm.length; i++) {var vFi = vForm.elements[i]; if (vFi.name) this.setInteraction(vFi, "disabled");}this.refreshResult("addClass");
+		}
+		scAssmntMgr.setToggleStatus(pButton, ! vIsOn);
+		scServices.assmntMgr.commit();
+	},
+
+	closeSeq: function(){
+		var vForm = document.forms.VWZuTgjParbUtznAq28g7h_form;
+		switch(this.fCurSeq) {
+
+	case "play" : {
+
+		break;
+	}
+
+	case "read" : {
+
+		break;
+	}
+
+		}
+		this.fCurSeq = null;
+	},
+	getOnLoadSeq:function() {
+
+	if(!scServices.assmntMgr.review && true) return "play";
+	return "read";
+	},
+
+	refreshScoresFeedbacks : function(){
+		
+
+		var vScoreNode = sc$("VWZuTgjParbUtznAq28g7h_SN103");
+
+		var vScore = (Math.floor((this.fScorePts-this.fMinPts) / (this.fMaxPts-this.fMinPts) * 100) * 1)+ 0;
+if(vScore > 99 && true) {
+			vScoreNode.innerHTML = "<span>"  + "Bonne réponse<\/span>";
+			vScoreNode.className = "answBest";
+		} else if(vScore > 49 && vScore <= 99 && true) {
+			vScoreNode.innerHTML = "<span>" + vScore + "% de bonnes réponses<\/span>";
+			vScoreNode.className = "answGood";
+		} else if(vScore > 0 && vScore <= 49 && true) {
+			vScoreNode.innerHTML = "<span>" + vScore + "% de bonnes réponses<\/span>";
+			vScoreNode.className = "answBad";
+		} else if(vScore <= 0 && true) {
+			vScoreNode.innerHTML = "<span>"  + "Mauvaise réponse <\/span>";
+			vScoreNode.className = "answWorst";
+		} else  {
+			vScoreNode.innerHTML = "";
+			vScoreNode.className = "";
+		}
+
+	},
+	setSolution : function(pIfRight, pIfNotBest){
+		for(var vF in this._Sol) if(vF != "_") scAssmntMgr.setMode(sc$("VWZuTgjParbUtznAq28g7h_X_"+vF), this.getSolIdx(vF)==0 ? pIfRight || "collapsed" : pIfNotBest || "collapsed");
+	},
+	setInteraction : function(pElt, pMode){
+		if(!pElt) return;
+		switch(pMode) {
+		case "collapsed" :
+			pElt.style.display = "none";
+			if("scSiLib" in window) scSiLib.fireResizedNode(pElt);
+			break;
+		case "invisible" :
+			pElt.style.display = "";
+			pElt.style.visibility = "hidden";
+			if("scSiLib" in window) scSiLib.fireResizedNode(pElt);
+			break;
+		case "enabled" : 
+		case "disabled" : 
+			pElt.disabled = (pMode=="disabled");
+		default :
+			pElt.style.display = "";
+			pElt.style.visibility = "visible";
+			if("scSiLib" in window) scSiLib.fireResizedNode(pElt);
+		}
+	},
+	refreshResult : function(pMode){
+		this._resultDisplay = pMode || "none";
+		var vForm = document.forms.VWZuTgjParbUtznAq28g7h_form;
+		for (var i=0; i < vForm.length; i++) { var vFi = vForm.elements[i]; if (vFi.name) this.refreshResultInput(vFi);}
+
+	},
+	onLoad: function(){
+		if (!String.prototype.trim) {String.prototype.trim = function () {return this.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, '');};}	
+
+		this.initSeq(this.getOnLoadSeq());
+		scAssmntMgr.setMode(sc$("VWZuTgjParbUtznAq28g7h_A"));
+
+	},
+	onPageHide: function(){
+		this.closeSeq();
+	},
+	loadSortKey: "A",
+	pageHideSortKey: "A"
+};
+
+scOnLoads[scOnLoads.length] = VWZuTgjParbUtznAq28g7h = scOnPageHides[scOnPageHides.length] = VWZuTgjParbUtznAq28g7h;
+/*]]>*/</script><div id="VWZuTgjParbUtznAq28g7h_A" style="display:none;"><div class="quizBody"><div class="question"><div class="rBk "><p><strong class="txt_emp_is ">Compléter les trous à l'aide des mots suivants</strong> :</p><ul class="txt_il "><li class="txt_ili "><p>énergie de sortie</p></li><li class="txt_ili "><p>énergie d'entrée</p></li><li class="txt_ili "><p>électrique, mécanique, thermique, ...</p></li><li class="txt_ili "><p>rotation, translation, chaleur, lumière, son, ...</p></li></ul></div></div><div aria-live="polite" class="response"><form action="javascript:void(0);" name="VWZuTgjParbUtznAq28g7h_form" id="VWZuTgjParbUtznAq28g7h_form" autocomplete="off"><p class="cloze_p ">La fonction globale d’un actionneur est de convertir une <span class="txt_gap_tl "><span><input name="N22" type="text" size="49" onblur="VWZuTgjParbUtznAq28g7h.setResp(this);" class="gapInput " ></input></span><span id="VWZuTgjParbUtznAq28g7h_X_N22" class="gapAnswer "><span>énergie d’entrée</span></span></span>, disponible sous une certaine forme (<span class="txt_gap_tl "><span><input name="N25" type="text" size="49" onblur="VWZuTgjParbUtznAq28g7h.setResp(this);" class="gapInput " ></input></span><span id="VWZuTgjParbUtznAq28g7h_X_N25" class="gapAnswer "><span>électrique, mécanique, thermique ...</span></span></span>), en une <span class="txt_gap_tl "><span><input name="N28" type="text" size="49" onblur="VWZuTgjParbUtznAq28g7h.setResp(this);" class="gapInput " ></input></span><span id="VWZuTgjParbUtznAq28g7h_X_N28" class="gapAnswer "><span>énergie de sortie</span></span></span> sous forme d'un phénomène physique (<span class="txt_gap_tl "><span><input name="N2b" type="text" size="49" onblur="VWZuTgjParbUtznAq28g7h.setResp(this);" class="gapInput " ></input></span><span id="VWZuTgjParbUtznAq28g7h_X_N2b" class="gapAnswer "><span>rotation, translation, chaleur, lumière, son, ...</span></span></span>) qui fournit un travail, modifie le comportement ou l'état d'un système.</p></form></div><div class="globalExp " id="VWZuTgjParbUtznAq28g7h_N_globalExp" aria-live="polite"><div class="rBk "><p>Un <strong class="txt_emp_is ">actionneur</strong> est un dispositif capable de <strong class="txt_emp_is ">convertir l'énergie</strong> !</p><p>C'est ce que fait par exemple un moteur électrique : il reçoit de l'énergie électrique et la convertit en énergie mécanique (énergie de mouvement).</p><p>Un moteur est donc un actionneur.</p></div><div class="rBk "><p>🤔 Réfléchis quelques instants et essaies de trouver d'<strong class="txt_emp_is ">autres exemples d'actionneur</strong> avant de passer à la suite.</p></div></div><div class="toolbar"><a role="button" title="Afficher le score et la correction" href="#" onkeydown="scDynUiMgr.handleBtnKeyDwn(event);" onkeyup="scDynUiMgr.handleBtnKeyUp(event);" onclick="VWZuTgjParbUtznAq28g7h.onActionNbc(this); return false;" class="btnQuiz correction " id="VWZuTgjParbUtznAq28g7h_S_Nbc" aria-controls="VWZuTgjParbUtznAq28g7h_N_score VWZuTgjParbUtznAq28g7h_N_globalExp"><span>Correction</span></a><a role="button" title="Effacer les réponses" href="#" onkeydown="scDynUiMgr.handleBtnKeyDwn(event);" onkeyup="scDynUiMgr.handleBtnKeyUp(event);" onclick="VWZuTgjParbUtznAq28g7h.onActionNe4(this); return false;" class="btnQuiz reset " id="VWZuTgjParbUtznAq28g7h_N_reset"><span>Recommencer</span></a><span class="scoreBox"><span class="score " aria-live="polite" id="VWZuTgjParbUtznAq28g7h_N_score"><span id="VWZuTgjParbUtznAq28g7h_SN103"><span ></span></span></span></span></div></div></div></div></section></div></div><div id="navigation" tabindex="-1"><hr class="hidden" ></hr><nav class="pageTurner" role="navigation"><ul><li class="pagePrev"><a rel="prev" target="_self" href="ActionneurActivite_1.html" class="btnNav prev" title="Précédent (Introduction)"><span>Précédent</span></a></li><li class="pageNext"><a rel="next" target="_self" href="deplacerComposantsNiv1.html" class="btnNav next" title="Suivant (Exercice : Déplacez dans les composants dans la bonne catégorie)"><span>Suivant</span></a></li></ul></nav></div></div><div id="toolbox"><nav aria-label="menu principal" class="pageSelector" id="menu" role="navigation" tabindex="-1"><hr class="hidden" ></hr><ul class="mnu static" data-totalPages="21"><li class="sel_no anc_no type_l  dpt_0 obj"><div class="lbl type_l" id="systemes_automatises_1.html"><a href="systemes_automatises_1.html" target="_self" class="item"><span>Objectifs</span></a></div></li><li class="sel_no anc_no type_l  dpt_0 intro"><div class="lbl type_l" id="systemes_automatises_2.html"><a href="systemes_automatises_2.html" target="_self" class="item"><span>Introduction</span></a></div></li><li class="sel_no anc_yes type_b  dpt_0 ueDiv"><div class="lbl type_b" id="systemes_automatises_3.html"><a href="systemes_automatises_3.html" target="_self" class="item" type="up"><span>Capteurs et actionneurs, les éléments de base de la chaîne fonctionnelle</span></a></div><ul class="sub mnu_open"><li class="sel_no anc_no type_l  dpt_1 intro"><div class="lbl type_l" id="systemes_automatises_7.html"><a href="systemes_automatises_7.html" target="_self" class="item"><span>Introduction</span></a></div></li><li class="sel_no anc_no type_l  dpt_1 expUc"><div class="lbl type_l" id="ComprendreCapteurActionneur.html"><a href="ComprendreCapteurActionneur.html" target="_self" class="item"><span>Vidéo : qu'est-ce qu'un capteur et qu'est-ce qu'un actionneur ?</span></a></div></li><li class="sel_no anc_no type_b  type_b_c dpt_1 courseUa"><div class="lbl type_b" id="CapteurActivite.html"><a href="CapteurActivite.html" target="_self" class="item"><span>Capteur, un composant de collecte d'information !</span></a></div></li><li class="sel_no anc_yes type_b  dpt_1 courseUa"><div class="lbl type_b" id="ActionneurActivite.html"><a href="ActionneurActivite.html" target="_self" class="item" type="up"><span>Les actionneurs, ces composants plein d'énergie !</span></a></div><ul class="sub mnu_open"><li class="sel_no anc_no type_l  dpt_2 intro"><div class="lbl type_l" id="ActionneurActivite_1.html"><a href="ActionneurActivite_1.html" target="_self" class="item"><span>Introduction</span></a></div></li><li class="sel_yes anc_no type_l  dpt_2 quiz"><div class="lbl type_l" id="ActionneurFonction.html"><span class="item"><span>Exercice : Fonction d'un actionneur</span></span></div></li><li class="sel_no anc_no type_l  dpt_2 quiz"><div class="lbl type_l" id="deplacerComposantsNiv1.html"><a href="deplacerComposantsNiv1.html" target="_self" class="item"><span>Exercice : Déplacez dans les composants dans la bonne catégorie</span></a></div></li><li class="sel_no anc_no type_l  dpt_2 quiz"><div class="lbl type_l" id="deplacerComposantsNiv2.html"><a href="deplacerComposantsNiv2.html" target="_self" class="item"><span>Exercice : Déplacez dans les composants dans la bonne catégorie (niveau 2 🔥)</span></a></div></li></ul></li></ul></li><li class="sel_no anc_no type_b  type_b_c dpt_0 ueDiv"><div class="lbl type_b" id="systemes_automatises_4.html"><a href="systemes_automatises_4.html" target="_self" class="item"><span>La chaîne d'information, c'est elle qui décide 🧠 !</span></a></div></li><li class="sel_no anc_no type_b  type_b_c dpt_0 ueDiv"><div class="lbl type_b" id="systemes_automatises_5.html"><a href="systemes_automatises_5.html" target="_self" class="item"><span>La chaîne d'énergie, elle travaille pour le système 💪 !</span></a></div></li><li class="sel_no anc_no type_b  type_b_c dpt_0 ueDiv"><div class="lbl type_b" id="systemes_automatises_6.html"><a href="systemes_automatises_6.html" target="_self" class="item"><span>La chaîne fonctionnelle, ou comment un système fonctionne tout seul 🔄</span></a></div></li></ul></nav><div id="tools" tabindex="-1"><hr class="hidden" ></hr><nav class="headingSelector" role="navigation"><ul class="mnu tools"><li class="anc_no home" data-position="uncle"><div class="lbl"><a href="systemes_automatises.html" target="_self" class="item" type="index" title="Page d&apos;accueil du module"><span>Accueil</span></a></div></li><li class="anc_yes module" data-position="ancestor"><div class="lbl"><span class="item"><span>Module</span></span></div></li><li class="anc_no tools" data-position="uncle"><div class="lbl"><a href="systemes_automatises_8.html" target="_self" class="item" title="Outils transverses du module"><span>Outils</span></a></div></li></ul></nav></div></div></main><footer id="footer" tabindex="-1"><hr class="hidden" ></hr><a id="linkSp" target="_blank" href="https://doc.scenari.software/Opale" title="Réalisé avec SCENARI (nouvelle fenêtre)"><span><img alt="Réalisé avec Scenari (nouvelle fenêtre)" src="../skin/img/tpl/scBtn.png" ></img></span></a></footer></div>
+		<script src="../skin/js/skin.js" ></script>
+		<script>/*<![CDATA[*/
+/* 5 */ outMgr.init();
+/* 5 */ scCodeMgr.init();
+/* 5 */ scImageMgr.init();
+/* 0 */ tplMgr.init({accessBar:"none",themeMode:"button",addMenuBtn:true});
+/*]]>*/</script></body></html>
